@@ -1,0 +1,161 @@
+html {
+    font-size: 1.5rem;
+    text-align: justify;
+}
+body {
+    margin: 5rem 2rem 1rem 2rem;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    background-color: darkslategrey;
+    color: whitesmoke;
+    min-height: 90vh;
+    min-width: 80vh;
+}
+.About {
+    margin: 1rem 2rem 1rem 2rem;
+    min-height: 90vh;
+}
+div .googleimg{
+    object-fit: contain;
+    border: 0;
+    min-width: 5rem;
+    min-height: 5rem;
+    max-width: 30%;
+    max-height: 30%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.Hatter {
+    text-align: center;
+    background-color: rgb(8, 45, 47);
+    border: 2px solid black;
+    border-top: 0px;
+    margin: auto;
+    width: 80%;
+    height: 5vw;
+    min-height: 2rem;
+    border-radius: 0px 0px 70px 70px;
+    position: fixed;
+    top: 0;
+    left: 10%;
+    z-index: 5;
+}
+.threeDots > summary{
+    position: absolute;
+    top: 50%;
+    text-align: left;
+    left: 3vw;
+    transform: translate(0, -50%);
+    list-style-type: none;
+}
+.dotListbg{
+    position: relative;
+    background-color: rgb(49, 115, 115, 0.6);
+    width: 8vw;
+    min-width: 8vw;
+    top: 3.4vw;
+    left: 0.65vw;
+    border-radius: 80px;
+}
+.dotListbg .dotList{
+    font-size: 1.3vw;
+    outline: 3px black;
+    display: inline;
+    color: silver;
+}
+.dotListbg .dotList:hover{
+    color: black;
+}
+.Hatter .threeDotsimg{
+    border: 0px;
+    border-radius: 0;
+    margin: 0.1rem;
+    width: 3vw;
+    height: 3vw;
+    max-width: 3vw;
+    max-height: 3vw;
+}
+div .glink{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header {
+    margin: 1em 1.5em 0em 1.5em;
+    padding: 1em 1.5em;
+}
+main {
+    margin: 0em 1.5em 0em 1.5em;
+    padding: 1em 1.5em;
+}
+details > summary{
+    color: inherit;
+    cursor:pointer;
+    margin-bottom: 0.5rem;
+}
+details:hover > summary{
+    color: darkgray;
+}
+details[open] > summary{
+    color: rgb(245, 245, 245, 0.3);
+}
+.centertext{
+    max-width: 70ch;
+}
+.lefty{
+    text-align: left;
+}
+.righty{
+    float: right;
+    width: 30%;
+    margin: 0.1rem;
+}
+.alignleft{
+    text-align: left;
+}
+h1, h2 {
+    text-align: center;
+}
+div {
+    margin: auto 1.25rem;
+}
+img {
+    margin: 0rem 0rem;
+    padding: 0rem;
+    border: 2px solid darkgrey;
+    border-radius: 50px;
+    max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 3;
+}
+a, a:visited {
+    color:aqua;
+    text-decoration: none;
+}
+a:focus, a:active{
+    color: navy;
+}
+a:hover {
+    color:crimson;
+}
+mark {
+    background-color: crimson;
+}
+input, button{
+    font-size: 0.7rem;
+}
+fieldset {
+    border-radius: 50px;
+}
+footer {
+    margin: 0rem 1.5rem 1rem 1.5rem;
+    padding: 1rem 1.5rem;
+}
+.moreinfo{
+    text-align: right;
+}
